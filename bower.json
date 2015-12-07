@@ -1,0 +1,23 @@
+{
+  "name": "adcade-hopscotch-dist",
+  "homepage": "https://github.com/adcade/adcade-hopscotch-dist",
+  "authors": [
+    "Horace Nelson <horace@adcade.com>"
+  ],
+  "description": "Distribution of Adcade's Hopscotch Fork.",
+  "main": "js/hopscotch.min.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "hopscotch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

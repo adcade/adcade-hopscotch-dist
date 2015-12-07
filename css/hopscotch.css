@@ -217,6 +217,10 @@
   -o-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
 }
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../../../assets/fonts/proxima-nova/Proxima_Nova_Regular.otf');
+}
 div.hopscotch-bubble .hopscotch-nav-button {
   /* borrowed from katy styles */
   background-color: transparent;
@@ -249,22 +253,32 @@ div.hopscotch-bubble .hopscotch-nav-button.next {
   padding-right: 15px;
 }
 div.hopscotch-bubble .hopscotch-nav-button.next::after {
+  background-image: url('../img/arrow-right.png');
+  background-repeat: no-repeat;
+  background-position: center center;
   content: "\203A";
-  font-size: 44px;
+  font-size: 0;
+  height: 34px;
   position: absolute;
-  top: -3px;
   right: 0;
+  top: -1px;
+  width: 6px;
 }
 div.hopscotch-bubble .hopscotch-nav-button.prev {
   float: left;
   padding-left: 15px;
 }
 div.hopscotch-bubble .hopscotch-nav-button.prev::before {
+  background-image: url('../img/arrow-left.png');
+  background-repeat: no-repeat;
+  background-position: center center;
   content: "\2039";
-  font-size: 44px;
+  font-size: 0;
+  height: 34px;
   position: absolute;
-  top: -3px;
   left: 0;
+  top: -1px;
+  width: 6px;
 }
 div.hopscotch-bubble {
   background-color: #ffffff;
